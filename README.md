@@ -19,17 +19,18 @@
 - [r-base 4.2.0](https://anaconda.org/r/r-base)
 
 ## Installation
-We recommend deploying ONN4ARG using `git` and `conda`.
+We recommend deploying ONN4ARG using `conda`.
 ```shell
+# install via source codes
+wget https://https://github.com/HUST-NingKang-Lab/DeepTaxa/releases/download/v0.1-alpha/DeepTaxa.zip
+unzip DeepTaxa.zip
+cd DeepTaxa
 # create the environment
 conda env create -f deeptaxa.yml
 # activate the environment
 conda activate deeptaxa
-# install via source codes
-wget https://
-tar zxf onn4arg-v1.0-model.tar.gz
 # check installation
-check.sh
+script/check.sh
 # If all goes well, you'll see a result file called "pred.tsv" in the "data/" directory in a few minutes
 ```
 
