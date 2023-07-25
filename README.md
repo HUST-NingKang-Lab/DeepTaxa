@@ -46,7 +46,7 @@ script/data.py [-h] [-p PATH] [-f FILE] [-o OUTPUT]
 # taxonomic classification of genomes
 script/predict.py [-h] [-i INPUT] [-m MODEL] [-f FILE] [-o OUTPUT]
 ```
-The workflow will take  `genomes/genomes_name_protein.faa` as input, and finally store the predicted annotations in `data/pred.tsv` or any other path you specify in the `-o` argument of `predicti.py`.
+The workflow will take  `genomes/genomes_name_protein.faa` as input, and finally store the predicted annotations in `data/pred.tsv` or any other path you specify in the `-o` argument of `predict.py`.
 ## Developers
 
    Name   |      Email      |      Affiliation
