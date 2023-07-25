@@ -39,11 +39,11 @@ Before using DeepTaxa, make sure you have activated the deeptaxa environment by 
 # identify 120 bacterial markers genes with hmmer
 script/hmmer.sh [-h|--help] [-i|--input] [-o|--output]
 # alignment of marker genes with mmseqs2
-`script/mmseqs.sh [-h|--help] [-i|--input] [-s|--hsummary] [-t|--tmp] [-o|--output]`
+script/mmseqs.sh [-h|--help] [-i|--input] [-s|--hsummary] [-t|--tmp] [-o|--output]
 # convert alignment results into an array format hdf5 file
-`script/data.py [-h] [-p PATH] [-f FILE] [-o OUTPUT]`
+script/data.py [-h] [-p PATH] [-f FILE] [-o OUTPUT]
 # taxonomic classification of genomes
-`script/predict.py [-h] [-i INPUT] [-m MODEL] [-f FILE] [-o OUTPUT]`
+script/predict.py [-h] [-i INPUT] [-m MODEL] [-f FILE] [-o OUTPUT]
 ```
 The workflow will take  `genomes/genomes_name_protein.faa` as input, and finally store the predicted annotations in `data/pred.tsv` or any other path you specify in the `-o` argument of `predicti.py`.
 ## Developers
