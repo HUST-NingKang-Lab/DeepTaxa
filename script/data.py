@@ -7,7 +7,7 @@ import argparse
 import numpy as np
 
 from tqdm import tqdm, trange
-from DeepTaxa import utils
+from utils import *
 
 parser = argparse.ArgumentParser(description='#please use this script to convert MMseqs results into an array format hdf5 file')
 parser.add_argument('-i', '--mmseqs_result_path', default='./mmseqs_result', type=str, help='indicate the absolute directory path of mmseqs result, default is \'./mmseqs_result\'')
