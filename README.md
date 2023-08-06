@@ -29,6 +29,8 @@ cd DeepTaxa
 conda env create -f config/deeptaxa.yml
 # activate the environment
 conda activate deeptaxa
+# add an executable permission for scripts
+chmod +x script/*
 # check installation
 script/check.sh
 # If all goes well, you'll see a result file called "pred.tsv" in the "data/" directory in a few minutes
