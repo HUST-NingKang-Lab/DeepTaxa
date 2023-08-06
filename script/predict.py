@@ -13,9 +13,8 @@ from torch.nn.functional import dropout
 from torch.nn.parameter import Parameter
 from torch.utils.data import TensorDataset, DataLoader
 
-from DeepTaxa import utils
-from DeepTaxa import models
-from DeepTaxa.models import *
+import utils
+from models import *
 
 warnings.filterwarnings("ignore")
 device = 'cuda' if pt.cuda.is_available() else 'cpu'
